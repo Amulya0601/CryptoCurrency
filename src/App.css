@@ -1,0 +1,38 @@
+.dashboard {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar {
+  margin-bottom: 20px;
+}
+
+.components-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.component {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.crypto-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.crypto-table th, .crypto-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.summary-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
